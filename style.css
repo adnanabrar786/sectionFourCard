@@ -1,0 +1,1185 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+.section_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.section_wrapper {
+    padding: 40px 50px;
+    max-width: 1600px;
+    background-color: #F0F9FA;
+}
+
+.section_sub_wrapper {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 720px;
+    background-color: #F0F9FA;
+    position: relative;
+}
+
+
+.line_one {
+    position: absolute;
+    top: 10px;
+    width: 90%;
+    left: 0px;
+}
+
+
+.line_two {
+    position: absolute;
+    bottom: 90px;
+    width: 90%;
+    left: 0px;
+}
+
+
+/* * fisrt_div */
+.heading_div_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading_div {
+    width: 40%;
+}
+
+.heading_div>h2 {
+    color: #242E62;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.heading_div>p {
+    margin-top: 20px;
+    color: #848484;
+    font-size: 18px;
+}
+
+.heading_div>div {
+    margin-top: 20px;
+}
+
+.heading_div>div>button {
+    padding: 8px 22px;
+    color: #ffffff;
+    background-color: #242E62;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    width: 120px;
+    cursor: pointer;
+}
+
+.heading_div>div>button:hover {
+    background-color: #000000;
+}
+
+
+
+
+/* card one */
+
+.card_one {
+    width: 20%;
+}
+
+.card_one>.card {
+    width: 100%;
+    z-index: 100;
+}
+
+.card_one>.card>div {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    position: relative;
+    top: -5px;
+}
+
+.card_one>.card>div>img {
+    width: 28px;
+    height: 28px;
+    z-index: 100;
+}
+
+.card_one>.card>h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #212529;
+}
+
+.card_one>.card>p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #848484;
+}
+
+
+/* card_two_three ------------------------------------------------------------------------------------ */
+
+.card_two_three {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    width: 70%;
+}
+
+/* card_two */
+.card_two {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.card_two>.card {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 100;
+    position: absolute;
+    top: 0px;
+}
+
+.card_two>.card>div {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.card_two>.card>div>img {
+    width: 28px;
+    height: 28px;
+}
+
+
+.card_two>.card>h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #212529;
+}
+
+.card_two>.card>p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #848484;
+}
+
+/* card_three */
+.card_three {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.card_three>.card {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 100;
+    position: absolute;
+    top: -55px;
+}
+
+.card_three>.card>div {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.card_three>.card>div>img {
+    width: 28px;
+    height: 28px;
+}
+
+
+.card_three>.card>h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #212529;
+}
+
+.card_three>.card>p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #848484;
+}
+
+
+
+
+/* card_four_five  -------------------------------------------------------------------------------------*/
+
+.card_four_five {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+/* card_four */
+
+.card_four {
+    left: 70px;
+    top: 70px;
+    width: 20%;
+    position: absolute;
+    z-index: 100;
+}
+
+.card_four>.card {
+    width: 100%;
+}
+
+.card_four>.card>div {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.card_four>.card>div>img {
+    width: 28px;
+    height: 28px;
+}
+
+.card_four>.card>p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #848484;
+}
+
+.card_four>.card>h2 {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #212529;
+}
+
+/* card_five */
+
+.card_five {
+    position: absolute;
+    right: 0px;
+    top: 45px;
+    width: 20%;
+    z-index: 100;
+}
+
+
+.card_five>.card {
+    width: 100%;
+    z-index: 100;
+}
+
+.card_five>.card>div {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.card_five>.card>div>img {
+    width: 28px;
+    height: 28px;
+}
+
+.card_five>.card>h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #212529;
+}
+
+.card_five>.card>p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #848484;
+}
+
+
+/* card_six_seven */
+
+.card_six_seven {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    width: 70%;
+    position: relative;
+    background-color: aqua;
+}
+
+
+/* card_six */
+
+.card_six {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.card_six>.card {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 100;
+    position: absolute;
+    top: 310px;
+}
+
+.card_six>.card>div {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.card_six>.card>div>img {
+    width: 28px;
+    height: 28px;
+}
+
+
+.card_six>.card>h2 {
+    margin-top: 20px;
+    width: 155%;
+    font-size: 18px;
+    color: #212529;
+}
+
+.card_six>.card>p {
+    margin-top: 10px;
+    width: 155%;
+    font-size: 16px;
+    color: #848484;
+}
+
+/* card_seven */
+.card_seven {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(255, 0, 230);
+}
+
+.card_seven>.card {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 100;
+    position: absolute;
+    top: 155px;
+}
+
+.card_seven>.card>div {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.card_seven>.card>div>img {
+    width: 28px;
+    height: 28px;
+}
+
+
+.card_seven>.card>h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #212529;
+}
+
+.card_seven>.card>p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #848484;
+}
+
+
+
+
+/* card_eight */
+
+.card_eight {
+    left: 70px;
+    top: 505px;
+    width: 20%;
+    position: absolute;
+    z-index: 100;
+}
+
+.card_eight>.card {
+    width: 100%;
+}
+
+.card_eight>.card>div {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.card_eight>.card>div>img {
+    width: 28px;
+    height: 28px;
+}
+
+.card_eight>.card>p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #848484;
+}
+
+.card_eight>.card>h2 {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #212529;
+}
+
+
+
+/* Six_div */
+.div_Six {
+    background-color: #ffffff;
+    position: absolute;
+    right: -50px;
+    bottom: -40px;
+    height: 150px;
+    width: 270px;
+    border-radius: 300px 0px 0px 0px;
+}
+
+.div_Six>div {
+    margin-top: 0px;
+}
+
+.div_Six>div>button {
+    margin-bottom: 40px;
+}
+
+
+.div_Six>div>button {
+    width: 120px;
+    height: 35px;
+    color: #ffffff;
+    background-color: #242E62;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    right: 180px;
+}
+
+.div_Six>div>button:hover {
+    background-color: #000000;
+}
+
+@media only screen and (max-width:1550px) {
+
+    .heading_div>p {
+        /* margin-top: 20px;
+        color: #848484; */
+        font-size: 15px;
+    }
+
+    .card_five {
+        /* position: absolute;
+        right: 0px; */
+        top: 60px;
+        /* width: 20%;
+        z-index: 100; */
+    }
+
+
+
+    .card_six>.card {
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        top: 330px;
+    }
+
+
+
+    .card_seven>.card {
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        top: 170px;
+    }
+}
+
+
+@media only screen and (max-width:1500px) {
+    .card_four {
+        top: 60px;
+
+        /* left: 70px;
+    top: 70px;
+    width: 20%;
+    position: absolute;
+    z-index: 100; */
+    }
+
+    .card_five {
+        top: 75px;
+        /* position: absolute;
+        right: 0px; */
+        /* top: 60px; */
+        /* width: 20%;
+        z-index: 100; */
+    }
+
+
+    .card_seven>.card {
+        top: 180px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: 170px; */
+    }
+
+}
+
+
+@media only screen and (max-width:1450px) {
+
+    .card_two>.card {
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        top: -20px;
+
+    }
+
+    .card_three>.card {
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        top: -65px;
+    }
+
+    .card_four {
+        top: 50px;
+
+        /* left: 70px;
+    top: 70px;
+    width: 20%;
+    position: absolute;
+    z-index: 100; */
+    }
+
+    .card_five {
+        top: 90px;
+        /* position: absolute;
+        right: 0px; */
+        /* top: 60px; */
+        /* width: 20%;
+        z-index: 100; */
+    }
+
+
+    .card_seven>.card {
+        top: 190px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: 170px; */
+    }
+}
+
+
+@media only screen and (max-width:1400px) {
+
+    .card_two>.card {
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        top: -25px;
+
+    }
+
+    .card_three>.card {
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        top: -78px;
+    }
+
+    .card_four {
+        top: 40px;
+
+        /* left: 70px;
+    top: 70px;
+    width: 20%;
+    position: absolute;
+    z-index: 100; */
+    }
+
+    .card_five {
+        top: 100px;
+        /* position: absolute;
+        right: 0px; */
+        /* top: 60px; */
+        /* width: 20%;
+        z-index: 100; */
+    }
+
+    .card_seven>.card {
+        top: 195px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: 170px; */
+    }
+}
+
+@media only screen and (max-width:1350px) {
+
+
+    .line_two {
+        /* position: absolute; */
+        bottom: 120px;
+        /* width: 90%;
+        left: 0px; */
+    }
+
+    .card_five {
+        top: 90px;
+        /* position: absolute;
+        right: 0px; */
+        /* top: 60px; */
+        /* width: 20%;
+        z-index: 100; */
+    }
+
+    .card_six>.card {
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        top: 310px;
+    }
+
+
+    .card_seven>.card {
+        top: 185px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: 170px; */
+    }
+
+    .card_eight {
+        /* left: 70px; */
+        top: 485px;
+        /* width: 20%;
+        position: absolute;
+        z-index: 100; */
+    }
+}
+
+
+@media only screen and (max-width:1300px) {
+
+    .line_two {
+        /* position: absolute; */
+        bottom: 130px;
+        /* width: 90%;
+        left: 0px; */
+    }
+
+    .heading_div {
+        width: 50%;
+    }
+
+    .heading_div>p {
+        margin-top: 10px;
+        /* color: #848484;
+        font-size: 18px; */
+    }
+
+
+    .card_six>.card>h2 {
+        /* margin-top: 20px; */
+        width: 148%;
+        /* font-size: 18px;
+    color: #212529; */
+    }
+
+    .card_six>.card>p {
+        /* margin-top: 10px; */
+        width: 148%;
+        /* font-size: 16px;
+    color: #848484; */
+    }
+
+
+
+
+}
+
+
+@media only screen and (max-width:1250px) {
+    .card_two>.card {
+        top: -45px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: -25px; */
+
+    }
+
+    .card_three>.card {
+        top: -90px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: -78px; */
+    }
+
+    .card_four {
+        top: 30px;
+
+        /* left: 70px;
+    top: 70px;
+    width: 20%;
+    position: absolute;
+    z-index: 100; */
+    }
+
+    .card_five {
+        top: 100px;
+        /* position: absolute;
+        right: 0px; */
+        /* top: 60px; */
+        /* width: 20%;
+        z-index: 100; */
+    }
+}
+
+
+@media only screen and (max-width:1200px) {
+
+    .line_two {
+        /* position: absolute; */
+        bottom: 170px;
+        /* width: 90%;
+        left: 0px; */
+    }
+
+
+    .heading_div>h2 {
+        /* color: #242E62;
+        font-weight: 700; */
+        font-size: 30px;
+    }
+
+
+    .heading_div>div {
+        margin-top: 10px;
+    }
+
+
+    .card_one {
+        width: 22%;
+    }
+
+
+    .card_two>.card {
+        top: -30px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: -25px; */
+
+    }
+
+    .card_three>.card {
+        top: -80px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: -78px; */
+    }
+
+    .card_four {
+        top: 40px;
+
+        /* left: 70px;
+    top: 70px;
+    width: 20%;
+    position: absolute;
+    z-index: 100; */
+    }
+
+    .card_five {
+        top: 100px;
+        width: 22%;
+        /* position: absolute;
+        right: 0px; */
+        /* top: 60px; */
+        /* width: 20%;
+        z-index: 100; */
+    }
+
+    .card_six>.card {
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        top: 290px;
+    }
+
+    .card_seven>.card {
+        top: 180px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: 170px; */
+    }
+
+    .card_eight {
+        top: 440px;
+        /* left: 70px;
+        top: 505px;
+        width: 20%;
+        position: absolute;
+        z-index: 100; */
+    }
+}
+
+@media only screen and (max-width:1150px) {
+    .card_five {
+        top: 120px;
+        /* width: 22%; */
+        /* position: absolute;
+        right: 0px; */
+        /* top: 60px; */
+        /* width: 20%;
+        z-index: 100; */
+    }
+
+    .card_six>.card {
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        top: 300px;
+    }
+
+    .card_seven>.card {
+        top: 190px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: 170px; */
+    }
+}
+
+
+@media only screen and (max-width:1113px) {
+
+    .line_two {
+        /* position: absolute; */
+        bottom: 200px;
+        /* width: 90%;
+        left: 0px; */
+    }
+
+
+    .heading_div {
+        width: 55%;
+    }
+
+    .heading_div>p {
+        margin-top: auto;
+        /* color: #848484;
+        font-size: 18px; */
+    }
+
+
+    .heading_div>h2 {
+        /* color: #242E62;
+        font-weight: 700; */
+        font-size: 30px;
+    }
+
+    .card_two>.card {
+        top: -60px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: -25px; */
+
+    }
+
+    .card_three>.card {
+        top: -100px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: -78px; */
+    }
+
+    .card_four {
+        top: 0px;
+
+        /* left: 70px;
+    top: 70px;
+    width: 20%;
+    position: absolute;
+    z-index: 100; */
+    }
+
+    .card_four>.card>h2 {
+        margin-top: 20px;
+        /* font-size: 18px;
+        color: #212529; */
+    }
+
+    .card_five {
+        top: 80px;
+        /* position: absolute;
+        right: 0px; */
+        /* top: 60px; */
+        /* width: 20%;
+        z-index: 100; */
+    }
+
+
+    .card_six>.card {
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        top: 250px;
+    }
+
+    .card_seven>.card {
+        top: 150px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: 170px; */
+    }
+
+
+
+    .card_eight {
+        top: 425px;
+
+        /* left: 70px;
+        top: 505px;
+        width: 20%;
+        position: absolute;
+        z-index: 100; */
+    }
+
+}
+
+
+@media only screen and (max-width:1050px) {
+
+
+    .line_one {
+        top: 20px;
+
+        /* position: absolute;
+        top: 10px;
+        width: 90%;
+        left: 0px; */
+    }
+
+
+    .card_three>.card {
+        top: -120px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: -78px; */
+    }
+
+    .card_four {
+        top: -10px;
+
+        /* left: 70px;
+    top: 70px;
+    width: 20%;
+    position: absolute;
+    z-index: 100; */
+    }
+}
+
+
+@media only screen and (max-width:1000px) {
+
+    .section_sub_wrapper {
+        height: 750px;
+
+        /* max-width: 1600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 720px;
+        background-color: #F0F9FA;
+        position: relative; */
+    }
+
+
+    .line_two {
+        bottom: 235px;
+
+        /* position: absolute;
+        bottom: 90px;
+        width: 90%;
+        left: 0px; */
+    }
+
+
+    .card_three>.card {
+        top: -105px;
+        /* width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+        position: absolute; */
+        /* top: -78px; */
+    }
+
+
+
+    .card_five {
+        top: 90px;
+        /* position: absolute;
+        right: 0px; */
+        /* top: 60px; */
+        /* width: 20%;
+        z-index: 100; */
+    }
+
+}
